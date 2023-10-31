@@ -13,8 +13,6 @@ import com.digitalhouse.checkout.service.IProductService;
 public class CheckoutService implements ICheckoutService{
 	
 	private IProductService productService;
-	
-	
 
 	public CheckoutService(IProductService productService) {
 
@@ -26,14 +24,13 @@ public class CheckoutService implements ICheckoutService{
 	@Override
 	public Checkout buildCheckout(List<String> productIds) {
 		Double total = 0.0;
-		for(String id :  productIds){
+		for(String id : productIds) {
 			Product product = productService.getProduct(id);
-			System.out.println("Respuesta desde"+product.getInstance());
+			System.out.println("Respuesta desde " + product.getInstance());
 			total += product.getPrice();
 		}
-		Checkout checkout = new Checkout("2","www.digitalhouse.com/checkout?code=234",total.toString(),List.of("credit_card"));
-	
-		
+		Checkout checkout = new Checkout("234", "www.digitalhouse/checkout?code=234", total.toString(), List.of("credit_card"));
+
 		return checkout;
 	}
 

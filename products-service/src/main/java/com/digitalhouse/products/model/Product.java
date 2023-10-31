@@ -2,13 +2,13 @@ package com.digitalhouse.products.model;
 
 public class Product {
 	
-	private String id;
+	private int id;
 	private String name;
 	private double price;
 	private String instance;
 
 	
-	public Product(String id, String name, double price,String instance) {
+	public Product(String id, String name, double price, String instance) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -16,10 +16,10 @@ public class Product {
 		this.instance = instance;
 
 	}
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getName() {
