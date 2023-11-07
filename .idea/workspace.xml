@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5ccb7fc-8044-4847-9ff6-516348362232" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/checkout-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/checkout-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout-service/src/main/java/com/digitalhouse/checkout/repository/FeignProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkout-service/src/main/java/com/digitalhouse/checkout/repository/FeignProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout-service/src/main/java/com/digitalhouse/checkout/service/implementation/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkout-service/src/main/java/com/digitalhouse/checkout/service/implementation/CheckoutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout-service/src/main/java/com/digitalhouse/checkout/service/implementation/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkout-service/src/main/java/com/digitalhouse/checkout/service/implementation/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/checkout-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout-service/src/main/java/com/digitalhouse/checkout/controller/CheckoutRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkout-service/src/main/java/com/digitalhouse/checkout/controller/CheckoutRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products-service/src/main/java/com/digitalhouse/products/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/products-service/src/main/java/com/digitalhouse/products/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/products-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +29,8 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="2XD4rt5xh1hunrq5SuNqhgaRINN" />
   <component name="ProjectViewState">
@@ -51,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ProductsServiceApplication">
+  <component name="RunManager" selected="Application.CheckoutServiceApplication">
     <configuration name="CheckoutServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.digitalhouse.checkout.CheckoutServiceApplication" />
       <module name="checkout-service" />
@@ -131,9 +127,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.CheckoutServiceApplication" />
         <item itemvalue="Application.ProductsServiceApplication" />
+        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
       </list>
